@@ -1,0 +1,18 @@
+{
+  "name": "hotspot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "md5.js",
+  "dependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss src/css/styles.css --output dist/css/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
